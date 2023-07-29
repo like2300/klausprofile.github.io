@@ -1,0 +1,168 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    animation-duration: 5s;
+    
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma,;
+    
+}
+
+ #loading{
+    
+    background: #000 url(img/load2.gif);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    opacity: 0.98;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+   
+ }
+
+header{
+    background-color:#111;
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    border:outset;
+    border-top: 0 black ;
+    border-right: 0 black ;
+    border-left: 0 black ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    padding-top: 0px;
+    
+}
+h1{
+    font-size: 2.5rem;
+    color: azure;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+span{
+    color: #ff006a;
+}
+
+li a {
+    text-decoration: none;
+    color:white;
+    text-transform:capitalize;   
+}
+
+  .vue{
+    width: 100%;
+    height: 500px;
+    background: url(img/software-developer-6521720_1280.jpg)50% 50% fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+  }
+
+li a:hover{
+    
+    border-radius: 10px;
+    padding: 4px;
+    cursor: pointer;
+    background-color:#ff006a;
+}
+button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color:#ff006a;
+}
+
+button{
+
+    border-radius: 10px;
+    color: white;
+    background-color: #111;
+    padding:3px;
+    margin-right: 20px;
+
+}
+dfn{
+    color: #ff006a;
+}
+
+.cont1{
+
+    padding-top: 5rem;
+    background-color: gray;
+    
+}
+
+.secp1{
+    
+    flex:2;
+    height: 350px;
+   background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fol{
+    margin-top: 250px;
+    font-size: 3.5rem;
+}
+.secp2{
+   margin-top:50px;
+   margin-left:40px;
+    flex:3;
+    background:#111 url(img/moi.png) 40% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    height:200px;
+    width:200px;
+    border-radius: 50% ;
+    border: 4px white solid;
+}
+
+.secp3{
+
+    width:100%;
+    height: 150px;
+    border: 1px dashed #ff006a;
+    background: #000 ;
+    color: white;
+}
+.cont{
+    display: flex;
+    padding-top: 5rem;
+    background-color:lightgrey;
+    gap: 2rem;
+}
+img{
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 80px;
+}
+
+.sec1{
+    height: 250px;
+    border: groove;
+}
+.sec2{
+    height: 250px;
+    border: groove;
+}
+.sec3{
+    height: 250px;
+    border: groove;
+}
